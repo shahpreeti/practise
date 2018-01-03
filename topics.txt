@@ -1,0 +1,4 @@
+1) JQuery
+2) AJAX
+3) CSS - Basic and Media Queries, Padding, Margin, Borders
+4) REST and Its types

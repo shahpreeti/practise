@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="MyStyle1.css">
+
+</head>
+<body>
+<style>
+body
+{
+  background-image: url("Koala.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+    margin-right: 200px;
+}
+</style>
+<p style="border:2px solid Tomato;">Try this out</p>
+<h2>Enter your name </h2>
+<input type="text" id ="myname"></br></br>
+<button type = "submit" onclick="fun1()">Click here</button>
+<p id="demo"></p>
+<script>
+function fun1(){
+var x=document.getElementById("myname").value;
+document.getElementById("demo").innerHTML="Welcome "+x;
+}
+</script>
+</body>
+</html>
